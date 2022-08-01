@@ -1,4 +1,4 @@
-# local-flink-with-docker
+# user logins analysers | Flink job
 Uses Apache Flink docker image with Kinesalite (and maybe Kafka)
 
 1. Clone This Repo
