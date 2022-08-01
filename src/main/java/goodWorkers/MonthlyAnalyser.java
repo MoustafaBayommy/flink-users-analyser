@@ -25,8 +25,11 @@ import java.util.Optional;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;
 import org.apache.flink.configuration.Configuration;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
+/**
+ * @author : moustafabayommy
+ * @mailto : moustafabayommy@gmail.com
+ * @created : 28/07/2022, Thursday
+ **/
 public class MonthlyAnalyser {
 
 
@@ -37,10 +40,8 @@ public class MonthlyAnalyser {
 //	final static String storagePath="src/main/resources/userEvents.csv";// use that resource for validation
 
 	final static String outputStreamName="users-logins-monthly";
-	final static String awsRegion="us-east-1";
 	final static String loggingEvent="LOGIN";
 
-	final static ObjectMapper jsonParser = new ObjectMapper();
 
 	public static void main(String[] args) throws Exception {
 		Configuration flinkConfig = new Configuration();

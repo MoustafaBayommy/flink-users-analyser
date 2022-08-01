@@ -38,6 +38,11 @@ import org.apache.flink.streaming.connectors.kinesis.config.ConsumerConfigConsta
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * @author : moustafabayommy
+ * @mailto : moustafabayommy@gmail.com
+ * @created : 28/07/2022, Thursday
+ **/
 public class WeeklyAnalyser {
 
 	final static String userEventsStream = "usersFlow";
