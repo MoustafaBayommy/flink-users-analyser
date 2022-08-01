@@ -105,4 +105,4 @@ modules.xml
 target/
 .idea/
 
-src/main/java/myflinkapp/pojo
+src/main/java/goodWorkers/pojo

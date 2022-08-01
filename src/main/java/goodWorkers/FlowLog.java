@@ -1,6 +1,4 @@
-package myflinkapp;
-
-import org.apache.flink.kinesis.shaded.com.amazonaws.services.dynamodbv2.xspec.L;
+package goodWorkers;
 
 /**
  * @author : moustafabayommy

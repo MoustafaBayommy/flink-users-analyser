@@ -11,8 +11,10 @@ Uses Apache Flink docker image with Kinesalite (and maybe Kafka)
 
 
 
-# Weekly  unique  weeklyAnalyser Job 
-   path =>  src/main/java/myflinkapp/weeklyAnalyser.java
+#  Weekly  unique  weeklyAnalyser Job 
+   path =>  src/main/java/goodWorkers/WeeklyAnalyser.java
+#  Weekly  unique  monthly Analyser Job
+path =>  src/main/java/goodWorkers/MonthlyAnalyser.java
 
 # Run the docker image
 Once you've installed docker, either from your IntelliJ Terminal or your local machine's terminal, navigate to the git project's root and type the following:

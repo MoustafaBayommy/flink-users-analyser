@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package myflinkapp;
+package goodWorkers;
 
 import java.util.Objects;
 import java.util.Properties;
